@@ -53,7 +53,7 @@ import io.swagger.client.auth.OAuth;
 
 public class ApiClient {
 
-    private String basePath = "https://uwrar.hinter-dorfer.eu:8080";
+    private String basePath = "https://uwrar.hinter-dorfer.eu";
     private boolean debugging = false;
     private Map<String, String> defaultHeaderMap = new HashMap<String, String>();
     private String tempFolderPath = null;
